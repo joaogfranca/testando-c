@@ -26,4 +26,6 @@ int main(){
     {
         printf("Valor do array na posição %d: %d\n", i, array[i]);
     }
+
+    free(array); //libera a memória alocada
 }
